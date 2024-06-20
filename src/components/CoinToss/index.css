@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.main-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139, #a35200);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-toss-container {
+  background-color: white;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.coin {
+  height: 90px;
+  width: 90px;
+}
+.coin-toss-heading {
+  color: #a35200;
+}
+.coin-toss-counts {
+  display: flex;
+  justify-content: space-around;
+}
+.coin-toss-btn {
+  color: #a35200;
+  background-color: #f9d423;
+  width: 90px;
+  border: 0px;
+}
+.total-count{
+  margin: 5px;
+}
+.heads-count{
+  margin: 5px;
+}
+.tails-count{
+  margin: 5px;
+}
